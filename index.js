@@ -1,6 +1,6 @@
 module.exports = {
     generateFrontend : () => `
-        import 'monaco-editor/esm/vs/editor/browser/controller/coreCommands.js'
+        import 'monaco-editor'
         import * as monaco from 'monaco-editor/esm/vs/editor/editor.api.js'
 
         let jsonWorker       = new Worker('../node_modules/monaco-editor/esm/vs/language/json/json.worker.js')
